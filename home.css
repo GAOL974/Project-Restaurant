@@ -1,0 +1,192 @@
+
+
+* {
+	box-sizing: border-box; 
+}
+
+html {
+	font-size: 62.5%; 
+}
+
+body {
+	font-size: 1.6rem; 
+}
+
+
+footer {
+	padding: 2em;
+	text-align: center;
+	color: #fff;
+	background-color: #444;
+    margin: 0%;
+}
+i{
+    color: white;
+    font-size: 20px;
+    margin: 7%;
+}
+
+body {
+    padding: auto;
+    margin: auto;
+	line-height: 1.5;
+	font-family: 'Athiti', sans-serif;
+	color: black;
+	background-color: white;
+    font-size: 15px;
+}
+.container {
+    margin: auto;
+    max-width: 980px;
+    width: 90%;
+}
+.fa-star{
+    color: #950000;
+    font-size: 7px;
+    margin: 1%;
+}
+
+h1 {
+	font-size: 30px;
+    font-family: 'Merienda', cursive;
+    width: 400px;
+}
+
+
+h2 {
+	font-size: 25px;
+	color: #333;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+
+h3 {
+	font-size: 20px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+h4 {
+	font-size: 18px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+.end h4{
+    border-bottom: 1px dashed white;
+}
+
+
+a {
+	text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.end{
+    padding: 3%;
+    background-image: url("./ressources/images/footer-bg.jpg");
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    display: flex;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    margin-left: 8%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+header li{
+    margin: 7%;
+    background-color: #ebe3db;
+    padding: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    text-align: center;
+}
+
+#about{
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+
+.resto{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    margin-bottom: 2%;
+}
+.menu div{
+    margin: 1%;
+    background-color: #ebe3db;
+}
+.menu li{
+    border-bottom: 1px dashed black;
+    list-style: none;
+    text-align: left;
+    padding: 2%;
+}
+
+input{
+    padding: 3%;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    background-color: #4c4343;
+    color: white;
+}
+
+
+
+#home:hover{
+    background-color: red; 
+    color:white;
+}
+#menus:hover{background-color: red;}
+#contact:hover{background-color: red;}
+
+.bouton:hover{
+    background-color: red;;
+    color: white;
+}
+
+.fade{
+    margin-top: 50px;
+}
+
+.slick-next {
+    right: 3em;
+    
+}
+.slick-prev {
+    left: 3em;
+    z-index: 1;
+}
+
+.slick-dots li button:before{
+    font-size: 30px;
+}
+
+#home, #menus, #contact{
+    transition: all 2s;
+}

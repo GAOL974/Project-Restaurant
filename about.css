@@ -1,0 +1,159 @@
+
+* {
+	box-sizing: border-box; 
+}
+
+html {
+	font-size: 62.5%; 
+}
+
+body {
+	font-size: 1.6rem; 
+}
+
+
+footer {
+	padding: 2em;
+	text-align: center;
+	color: #fff;
+	background-color: #444;
+    margin: 0%;
+}
+.fa-star{
+    color: #950000;
+    font-size: 7px;
+    margin: 1%;
+}
+i{
+    color: white;
+    font-size: 20px;
+    margin: 7%;
+}
+
+body {
+    padding: auto;
+    margin: auto;
+	line-height: 1.5;
+	font-family: 'Athiti', sans-serif;
+	color: black;
+	background-color: white;
+    font-size: 15px;
+}
+.container {
+    margin: auto;
+    max-width: 980px;
+    width: 90%;
+}
+
+/* Le titre principal d'un flux */
+h1 {
+	font-size: 30px;
+    font-family: 'Merienda', cursive;
+    width: 400px;
+}
+
+/* Le titre de second niveau  */
+h2 {
+	font-size: 25px;
+	color: #333;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+
+
+h3 {
+	font-size: 20px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+h4 {
+	font-size: 18px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    border-bottom: 1px dashed white;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+a:hover {
+	color: #000;
+}
+
+
+
+
+.end{
+    padding: 3%;
+    background-image: url("./ressources/images/footer-bg.jpg");
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    display: flex;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    margin-left: 8%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 8%;
+}
+#about{
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+li{
+    margin: 7%;
+    background-color: #ebe3db;
+    padding: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    text-align: center;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    background-color: #ebe3db;
+}
+.table img{
+    width: 90%;
+    margin: 5% 2.5% 0 2.5%;
+}
+
+.table1{
+    display: flex;
+    text-align: center;
+}
+video{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.fin{
+    margin-bottom: 2%;
+}
+
+#home:hover{
+    background-color: red; 
+    color:white;
+}
+#home, #menus, #contact{
+    transition: all 2s;
+}
+#menus:hover{background-color: red;}
+#contact:hover{background-color: red;}

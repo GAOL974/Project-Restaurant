@@ -1,0 +1,209 @@
+
+
+* {
+    box-sizing: border-box;
+    }
+
+html {
+    font-size: 62.5%;
+    }
+
+body {
+    font-size: 1.6rem;
+    }
+
+
+footer {
+    padding: 2em;
+    text-align: center;
+    color: #fff;
+    background-color: #444;
+    margin: 0%;
+}
+.test a.active  {
+    background-color: rgb(202, 199, 199);
+    color: white;
+}
+
+i{
+    color: white;
+    font-size: 20px;
+    margin: 7%;
+}
+
+body {
+    padding: auto;
+    margin: auto;
+    line-height: 1.5;
+    font-family: 'Athiti', sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+}
+
+.container {
+    margin: auto;
+    max-width: 980px;
+    text-align: center;
+    width: 90%;
+}
+sup{
+    color: red;
+}
+.fa-star{
+    color: #950000;
+    font-size: 7px;
+    margin: 1%;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+    width: 400px;
+}
+
+
+h2 {
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+.end h4 {
+    border-bottom: 1px dashed white;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.end {
+    padding: 3%;
+    background-image: url("./ressources/images/footer-bg.jpg");
+    color: white;
+}
+
+header {
+    display: flex;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin-left: 8%;
+}
+
+header li {
+    margin: 7%;
+    background-color: #ebe3db;
+    padding: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    text-align: center;
+}
+
+#about {
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+form{
+    background-color: #ebe3db;
+}
+
+form article div{
+    display: flex;
+    flex-direction: column;
+}
+form .article{
+    display: flex;
+    
+    
+}
+.article div{
+    width: 50%;
+}
+
+.case1{
+    width: 92%;
+    border-radius: 5px;
+    padding: 1%;
+}
+.case2{
+    width: 92%;
+    border-radius: 5px;
+    padding: 1.5%;
+}
+
+textarea{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    
+
+}
+
+#txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+button{
+    width: 40%;
+}
+
+#home:hover{
+    background-color: red; 
+    color:white;
+}
+#home, #menus, #contact{
+    transition: all 2s;
+}
+#menus:hover{
+    background-color: red;
+}
+#contact:hover{
+    background-color: red;
+}
+
+.button{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 27%;
+    width: 45%;
+    background-color: #4c4343;
+    color: white;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+iframe{
+    margin-bottom: 2%;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./ressources/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Athiti&family=Merienda&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ccdbf9e484.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css">
+    <title>Frenshly restaurant</title>
+</head>
+
+<body>
+    <header class="container">
+        <img src="./ressources/images/logo.png" width="100px" height="100px" alt="">
+        <h1><a href="./home.html"><i class="fas fa-star"></i>FRENSHLY RESTAURANT<i class="fas fa-star"></i></a></h1>
+        <ul class="test">
+            <li id="home"><a href="./home.html">Home</a></li>
+            <li id="contact"><a href="./about.html">About</a></li>
+            <li id="menus"><a href="./menus.html">Menus</a></li>
+            <li id="about">Contact</li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <h2><i class="fas fa-star"></i>Contact us<i class="fas fa-star"></i></h2>
+            <p>If your want to make a reservation, please complete this form.</p>
+            <p>Field with <sup>*</sup> are required</p>
+            <form action="">
+                
+                <article class="article">
+                    <div>
+                        <h3>Reservation</h3>
+                        <label> <sup>*</sup>Date <br><input type="date" name="date" placeholder="jj/mm/aaaa" class="case1" required> </label>
+                        <label> <sup>*</sup>Time <br><input type="time" name="time" placeholder="--:--" class="case1" required> </label>
+                        <label> <sup>*</sup>Number of guests <br><input type="number" name="number" class="case1" required> </label>
+                    </div>
+                    <div>
+                        <h3>Details</h3>
+                        <label> <sup>*</sup>Name <br><input type="text" name="name" class="case2" required> </label>
+                        <label> Email <br><input type="email" name="email" class="case2"> </label>
+                        <label> <sup>*</sup>Telphone <br><input type="tel" name="tel" class="case2" required> </label>
+                    </div>
+                </article>
+                <article id="txt">
+                    <h3>Further request</h3>
+                    <textarea name="" id="textarea" cols="30" rows="8"></textarea>
+                    <input type="button" class="button" value="RESERVE">
+                </article>
+            </form>
+        </section>
+        <section class="container fin">
+            <h3><i class="fas fa-star"></i>Our location<i class="fas fa-star"></i></h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1302.3453846864188!2d-74.00140334524448!3d40.73398987068446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25996a02e5209%3A0xae7c604488b12607!2s13%20Christopher%20St%2C%20New%20York%2C%20NY%2010014%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1634738157841!5m2!1sfr!2sfr" width="100%" height="450" loading="lazy"></iframe>
+        </section>
+        <section>
+            <article class="end">
+                <div class="container flex">
+                    <div>
+                        <h4>Opening hours</h4>
+                        <p>Monday : Closed</p>
+                        <p>Tue-Wed : 9am - 10pm</p>
+                        <p> Thu-Wed : 9am - 10pm</p>
+                        <p>Sat-Sun : 5am - 10pm</p>
+                    </div>
+                    <div>
+                        <h4>Contact</h4>
+                        <p>13 christopher street <br> New York, <br> NY 10014-3543</p>
+                        <p>+01 2000 800 0000</p>
+                    </div>
+                    <div>
+                        <h4>Social networks</h4>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
